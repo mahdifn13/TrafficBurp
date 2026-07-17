@@ -58,6 +58,3 @@ The log is plain JSON Lines (`.jsonl`) — one JSON object per line, easy to `gr
 - Request bodies are stored in full (base64-encoded) so Repeater always gets an exact replay. Response bodies are never stored.
 - Switching to a different log file (e.g. per-target) automatically starts a fresh sync from the beginning of history.
 
-## License
-
-MIT
